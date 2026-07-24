@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami - SehatBersama</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">+</div>
+                <span>SehatBersama</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="kegiatan.html">Kegiatan</a></li>
+                <li><a href="kontak.html" class="active">Kontak</a></li>
+                <li><a href="kontak.html" class="btn-emergency">UGD 24 Jam</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Hubungi Kami</h1>
+        <p>Layanan informasi dan formulir pendaftaran janji temu pasien</p>
+    </div>
+
+    <div class="container">
+        <!-- Layout Kontak Grid Kiri (Info) & Kanan (Form) -->
+        <div class="contact-wrapper">
+            
+            <!-- Kartu Info Kiri -->
+            <div class="contact-info-card">
+                <h3 style="color: var(--primary-dark); margin-bottom: 1.5rem;">Informasi Kontak</h3>
+                
+                <div class="contact-info-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-details">
+                        <h4>Alamat Kami</h4>
+                        <p>Jl. Kesehatan No. 123, Jakarta Pusat</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-icon">📞</div>
+                    <div class="contact-details">
+                        <h4>Call Center</h4>
+                        <p>(021) 555-0199</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-icon">🚨</div>
+                    <div class="contact-details">
+                        <h4>UGD 24 Jam</h4>
+                        <p style="color: #ef4444; font-weight: bold;">(021) 555-0911</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <p>info@sehatbersama.go.id</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form Kanan -->
+            <div class="contact-form-card">
+                <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem;">Formulir Janji Temu</h3>
+                <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem;">Lengkapi data di bawah untuk melakukan pendaftaran online.</p>
+
+                <form action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Nama Lengkap</label>
+                            <input type="text" class="form-control" placeholder="Nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Nomor WhatsApp/HP</label>
+                            <input type="tel" class="form-control" placeholder="0812xxxxxxxx" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Pilih Layanan</label>
+                            <select class="form-control" required>
+                                <option value="">-- Pilih Poliklinik --</option>
+                                <option value="umum">Poli Umum & Gigi</option>
+                                <option value="spesialis">Poli Spesialis</option>
+                                <option value="mcu">Medical Check-Up</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Tanggal Kunjungan</label>
+                            <input type="date" class="form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Pesan / Keluhan Singkat</label>
+                        <textarea class="form-control" placeholder="Tuliskan keluhan kesehatan Anda..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim & Buat Janji Temu</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            &copy; 2026 SehatBersama. Hak Cipta Dilindungi Undang-Undang.
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
