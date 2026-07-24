@@ -1,0 +1,166 @@
+<!DOCTYPE
+html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SehatBersama - Pusat Informasi & Layanan Kesehatan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">+</div>
+                <span>SehatBersama</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="">Beranda</a></li>
+<li><a href="tentang.html" class="">Tentang Kami</a></li>
+<li><a href="layanan.html" class="">Layanan</a></li>
+<li><a href="kegiatan.html" class="active">Kegiatan</a></li>
+<li><a href="kontak.html" class="">Kontak</a></li>
+
+                <li><a href="kontak.html" class="btn-emergency">UGD 24 Jam</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Kegiatan & Program Kesehatan</h1>
+        <p>Inisiatif sosial dan edukasi masyarakat demi terwujudnya lingkungan yang sehat dan sejahterah</p>
+    </div>
+
+    <div class="container">
+        <div class="section-title">
+            <h2>Jadwal Kegiatan Mendatang</h2>
+            <p>Ikuti berbagai kegiatan sosial, pemeriksaan gratis, dan seminar kesehatan publik</p>
+        </div>
+
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tanggal & Waktu</th>
+                        <th>Nama Kegiatan</th>
+                        <th>Lokasi / Tempat</th>
+                        <th>Biaya / Pendaftaran</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>15 Agustus 2026</strong><br>08.00 - 12.00 WIB</td>
+                        <td>Aksi Donor Darah & Pemeriksaan Hemoglobin Gratis</td>
+                        <td>Aula Utama SehatBersama</td>
+                        <td>Gratis (Terbuka Umum)</td>
+                        <td><span >Buka Pendaftaran</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>22 Agustus 2026</strong><br>09.00 - 11.30 WIB</td>
+                        <td>Webinar Edukasi: Pencegahan Hipertensi di Usia Muda</td>
+                        <td>Zoom Online & Live YouTube</td>
+                        <td>Gratis (E-Sertifikat)</td>
+                        <td><span >Buka Pendaftaran</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>05 September 2026</strong><br>06.30 - 09.00 WIB</td>
+                        <td>Senam Sehat Lansia & Skrining Tulang Sehat</td>
+                        <td>Taman Kota Bersama</td>
+                        <td>Gratis</td>
+                        <td><span >Segera Dibuka</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section-title">
+            <h2>Program Unggulan Komunitas</h2>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>👶 Posyandu & Edukasi Stunting</h3>
+                <p>Program pendampingan gizi ibu hamil dan pemantauan berkala tumbuh kembang anak balita di tingkat kelurahan untuk mencegah stunting sejak dini.</p>
+            </div>
+            <div class="card">
+                <h3>🩺 Posbindu PTM (Penyakit Tidak Menular)</h3>
+                <p>Skrining rutin tekanan darah, gula darah, dan kolesterol secara berkala untuk deteksi dini risiko penyakit kardiovaskular masyarakat.</p>
+            </div>
+            <div class="card">
+                <h3>📢 Penyuluhan Kesehatan Sekolah</h3>
+                <p>Edukasi PHBS (Perilaku Hidup Bersih dan Sehat) serta pemenuhan gizi seimbang bagi siswa SD hingga SMA secara rutin.</p>
+            </div>
+        </div>
+
+        <div class="card" >
+            <h2 >Formulir Pendaftaran Peserta Kegiatan</h2>
+            <form action="#" method="POST" onsubmit="alert('Terima kasih! Pendaftaran kegiatan Anda telah diterima.'); return false;">
+                <div class="grid">
+                    <div class="form-group">
+                        <label>Nama Lengkap</label>
+                        <input type="text" class="form-control" required placeholder="Contoh: Budi Gunawan">
+                    </div>
+                    <div class="form-group">
+                        <label>Nomor WhatsApp / HP</label>
+                        <input type="tel" class="form-control" required placeholder="0812xxxxxxxx">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Pilih Kegiatan yang Ingin Diikuti</label>
+                    <select class="form-control" required>
+                        <option value="">-- Pilih Kegiatan --</option>
+                        <option value="donor">Aksi Donor Darah (15 Ags 2026)</option>
+                        <option value="webinar">Webinar Hipertensi (22 Ags 2026)</option>
+                        <option value="senam">Senam Sehat Lansia (05 Sep 2026)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Catatan / Pertanyaan Singkat</label>
+                    <textarea class="form-control" placeholder="Tuliskan jika ada kebutuhan khusus atau pertanyaan..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Daftar Kegiatan Sekarang</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>SehatBersama</h4>
+                <p>Pusat informasi dan layanan kesehatan terpadu masyarakat, berkomitmen memberikan pelayanan medis yang profesional, ramah, dan terjangkau.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigasi</h4>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="layanan.html">Layanan Medis</a></li>
+                    <li><a href="kegiatan.html">Kegiatan & Edukasi</a></li>
+                    <li><a href="kontak.html">Kontak & Lokasi</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Layanan Utama</h4>
+                <ul>
+                    <li><a href="layanan.html">Poliklinik Umum & Spesialis</a></li>
+                    <li><a href="layanan.html">Medical Check-Up (MCU)</a></li>
+                    <li><a href="layanan.html">Layanan Telemedicine</a></li>
+                    <li><a href="layanan.html">Laboratorium 24 Jam</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Hubungi Kami</h4>
+                <p>📍 Jl. Kesehatan No. 123, Jakarta Pusat</p>
+                <p>📞 Call Center: (021) 555-0199</p>
+                <p>🚨 UGD 24 Jam: (021) 555-0911</p>
+                <p>✉️ info@sehatbersama.go.id</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 SehatBersama. Hak Cipta Dilindungi Undang-Undang.
+        </div>
+    </footer>
+</body>
+</html>
