@@ -24,14 +24,15 @@
 
 ## Struktur Folder
 ```text
-SehatBersama/
+WEBSITE-LAYANAN-KESEHATAN/
 ├── css/
-│   └── style.css        # File styling utama (Layout, Warna, Grid, Responsive)
+│   └── style.css
 ├── js/
-│   └── main.js          # Script interaktivitas & validasi form
-├── index.html           # Halaman Beranda
-├── tentang.html         # Halaman Profil & Visi Misi
-├── layanan.html         # Halaman Katalog Layanan & Paket MCU
-├── kegiatan.html        # Halaman Jadwal Acara & Form Pendaftaran
-├── kontak.html          # Halaman Kontak & Form Janji Temu Pasien
-└── README.md            # Dokumentasi proyek
+│   └── main.js
+├── images/
+├── index.html
+├── tentang.html
+├── layanan.html
+├── kegiatan.html
+├── kontak.html
+└── README.md
